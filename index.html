@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Landing Page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<a href="#" class="logo">
+				<svg width="20" height="20" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="50" cy="50" r="45" fill="#3498db" />
+				</svg>
+			</a>
+			<input type="checkbox" id="nav-toggle" class="nav-toggle">
+			<label for="nav-toggle" class="nav-toggle-label">
+				<span></span>
+			</label>
+			<ul class="nav-links">
+				<li style="--i:0.1s"><a href="#sobre-mi">Sobre mí</a></li>
+				<li style="--i:0.2s"><a href="#proyectos">Proyectos</a></li>
+				<li style="--i:0.3s"><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="sobre-mi" class="hero">
+		<div class="hero-content">
+			<h1>Sobre mí</h1>
+			<img src="img/carmen.jpg" alt="Carmen Ansio" class="profile-image">
+			<p>¡Hola! Soy Carmen Ansio, Design Engineer. Me encanta combinar diseño y código para crear experiencias
+				atractivas y accesibles.</p>
+		</div>
+	</section>
+
+	<main>
+		<section id="proyectos">
+			<h2 class="section-title">Mis Proyectos</h2>
+			<div class="projects-grid">
+				<article class="project-card">
+					<h3>Animaciones Interactivas con CSS</h3>
+					<p>Un proyecto en el que utilicé técnicas avanzadas de CSS para crear animaciones fluidas e
+						interactivas, mejorando la experiencia del usuario en la web.</p>
+					<a href="#" class="button">Explorar Proyecto</a>
+				</article>
+				<article class="project-card">
+					<h3>Portafolio de Diseño Accesible</h3>
+					<p>Un ejemplo de cómo implementé prácticas de diseño accesible para garantizar que mi trabajo sea
+						inclusivo y usable para todos los usuarios, independientemente de sus habilidades.</p>
+					<a href="#" class="button">Explorar Proyecto</a>
+				</article>
+				<article class="project-card">
+					<h3>Dashboard Interactivo con JavaScript</h3>
+					<p>Creación de un dashboard interactivo usando JavaScript y APIs, con visualizaciones dinámicas para
+						hacer más comprensible la información compleja.</p>
+					<a href="#" class="button">Explorar Proyecto</a>
+				</article>
+				<article class="project-card">
+					<h3>Generador de Temas con Sass</h3>
+					<p>Un generador de temas para aplicaciones web, utilizando Sass para personalizar fácilmente
+						esquemas de color y estilos de forma dinámica.</p>
+					<a href="#" class="button">Explorar Proyecto</a>
+				</article>
+				<article class="project-card">
+					<h3>Landing Page para Startups</h3>
+					<p>Diseño y desarrollo de una landing page optimizada para conversiones, utilizando HTML, CSS y
+						JavaScript para lograr un diseño moderno y eficiente.</p>
+					<a href="#" class="button">Explorar Proyecto</a>
+				</article>
+				<article class="project-card">
+					<h3>Aplicación Web de Tareas</h3>
+					<p>Una aplicación de tareas construida con React, diseñada para mejorar la productividad personal,
+						con una interfaz amigable y características intuitivas.</p>
+					<a href="#" class="button">Explorar Proyecto</a>
+				</article>
+			</div>
+		</section>
+
+		<section id="contacto" class="contact-section">
+			<h2 class="section-title">Hablemos</h2>
+			<p>¿Te gustaría trabajar juntos o tienes alguna consulta? ¡No dudes en contactarme!</p>
+			<a href="mailto:carmen@example.com" class="button">Enviar un correo</a>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2024 Carmen Ansio | Todos los derechos reservados</p>
+	</footer>
+
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
