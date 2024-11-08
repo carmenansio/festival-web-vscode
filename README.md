@@ -1,10 +1,14 @@
+
+![thumbnail](https://github.com/user-attachments/assets/ae1fa51c-b031-4d43-abf7-af16a48c7b8b)
+
 # Roadmap del taller
 
 ## Objetivos
 1. Diseño inicial en Figma.
-2. Handoff de Figma a VSCode.
-3. Desarrollo en VSCode.
-4. Control de versiones y deploy en GitHub.
+   	- [Link a Figma Community](https://www.figma.com/community/file/1436084627248780906/festival-web)
+3. Handoff de Figma a VSCode.
+4. Desarrollo en VSCode.
+5. Control de versiones y deploy en GitHub.
 
 ## Proceso paso a paso
 1. Diseñar un wireframe en Figma y exportar assets.
